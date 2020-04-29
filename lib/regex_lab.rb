@@ -13,6 +13,7 @@ def words_starting_with_un_and_ending_with_ing(text)
 end
 
 def words_five_letters_long(text)
+  return array = text.split
   return_array.grep(/\b\w{5}\b/)
 end
 
